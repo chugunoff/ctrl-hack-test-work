@@ -8,11 +8,9 @@ Install deps
 npm i
 ```
 
-Remove or comment `base` key in `vite.config.ts`
+Remove or comment out a line `base: '/ctrl-hack-test-work/',` in `vite.config.ts`
 
-```
-// base: '/ctrl-hack-test-work/',
-```
+Replace `history: createWebHistory('/ctrl-hack-test-work/'),` with `history: createWebHistory(),` in `./src/routes/index.ts`
 
 Development mode:
 

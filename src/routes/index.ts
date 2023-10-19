@@ -14,6 +14,6 @@ export const routes: RouteRecordRaw[] = [
 ];
 
 export const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('/ctrl-hack-test-work/'),
   routes,
 });
